@@ -1,0 +1,367 @@
+*{
+ 
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.bgimage{
+
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(coorg2.jpg);
+   background-size: 100%;
+   height: 105vh;
+   background-repeat: no-repeat;
+
+}
+
+.menu{
+
+   width: 100%;
+   height: 80px;
+   background-color: rgba(0,0,0,0.6);
+
+}
+
+.leftmenu{
+
+   width: 27%;
+   line-height: 80px;
+   float: left;
+
+}
+
+#logo{
+
+   display: inline-block;
+   float: left;
+   margin-right: 10px;
+   padding-left: 70px;
+   margin-top: 15px;
+
+}
+
+.leftmenu h4{
+
+   padding-left: 70px;
+   font-weight: bold;
+   color: #f04;
+   font-size: 22px;
+   font-family: 'montserrat', sans-serif;
+   background-color: black;
+   letter-spacing: -1px;
+
+}
+
+.rightmenu{
+   
+   width: 73%;
+   height: 100px;
+   float: right;
+
+}
+
+.rightmenu ul{
+
+   list-style: none;
+   margin-left: 150px;
+}
+
+.rightmenu ul li{
+
+   font-family: "Playfair Display", serif;
+   display: inline-block;
+   list-style: none;
+   font-size: 15px;
+   color: white; 
+   font-weight: bold;
+   line-height: 80px;
+   margin-left: 80px;
+   float: left;
+
+}
+
+.rightmenu ul li a{
+
+   text-decoration: none;
+   color: white;
+   display: block;
+}
+
+.rightmenu ul li a:hover{
+
+   color: #e6003d;
+
+}
+
+#firstlist{
+  
+   color: #e6003d;
+
+}
+
+.text{
+
+   width: 100%;
+   margin-top: 150px;
+   text-align: center;
+   color: #e6003d;
+   font-family: "Playfair Display", serif;
+
+}
+
+.overlay{
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+}
+
+.overlay:hover{
+
+   opacity: 1;
+
+}
+
+.text h4{
+
+   font-size: 20px;
+
+}
+
+.text h1{
+
+   font-size: 50px;
+
+}
+
+.text h6{
+   
+   font-size: 20px;
+   text-transform: uppercase;
+
+}
+
+#btnone{
+
+   background-color: transparent;
+   border: square;
+   border-radius: 5px;
+   border-color: #f04;
+   color: #f04;
+   font-family: "Istok Web", sans-serif;
+   font-size: 16px;
+   letter-spacing: 8px;
+   margin-top: 20px;
+   padding: 10px;
+   text-transform: uppercase;
+   transition: box-shadow 0.3s linear 0.1s; 
+
+}
+
+#btnone:hover {
+
+   background-color: #f04;
+   transition: all 0.2s ease-in;
+   color: black; 
+   cursor: pointer;
+   box-shadow: 0 20px 20px 0 #000000; 
+
+}
+
+.footer{
+      
+   width: 100%;
+   height: 200px;
+   margin-top: 30px;
+   background-color: black; 
+
+}
+
+.text1{
+
+   color: #f04;
+   font-size: 40px;
+   text-transform: uppercase;
+   margin-left: 20px;
+   font-family: "Georgia", Serif;
+   letter-spacing: 2px;
+   text-shadow: 0px 3px 3px #494949; 
+
+}
+
+.text2{
+
+   color: #f04;
+   font-size: 35px;
+   text-transform: uppercase;
+   margin-left: 20px;
+   font-family:"Playfair Display", serif; 
+
+}
+
+.text3{
+
+   color: #34f315;
+   font-size: 23px;
+   margin-left: 20px;
+   letter-spacing: 1px;
+   font-family: "Georgia", serif; 
+
+}
+
+.technologies{
+
+   width: 80%;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto; 
+
+}
+
+#heading{
+
+   color: #f04;
+   font-size: 40px;
+   font-family:Georgia, Serif;
+   text-shadow: 0px 3px 3px #494949;
+   margin-left: 20px;
+   margin-top: 30px; 
+
+}
+
+.title{
+
+   color: #f04;
+   font-size: 20px;
+   font-family:"Georgia", serif; 
+
+}
+
+.icon{
+
+   float: left;
+   width: 32%;
+   margin-left: 20px;
+
+}
+
+.virat{
+
+   margin-left: 60px;
+   margin-top: 20px;
+   height: 250px;
+   width: 250px;
+
+}
+
+.icon:first-of-type{
+
+   margin-left: 0px;
+
+}
+
+.tech{
+    
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px; 
+   color: darkgreen;
+
+}
+
+#newline{
+
+   margin-top: 440px;
+   margin-left: 5px;
+
+}
+
+.anotherline{
+
+   margin-top: 420px;
+   margin-left: 5px;
+   
+}
+
+@media screen and (max-width: 700px){
+
+   .icon{
+    width: 100%;
+    float: none;
+  } 
+}
+
+.work{
+
+   margin-top: 900px;
+   background-color: black;
+   height: 500px;
+   text-align: center;
+
+}
+
+.work h2{
+
+   font-size: 35px;
+   color: #f04;
+   font-family:Georgia, Serif;
+   text-shadow: 0px 3px 3px #494949;
+   margin-top: 100px;
+   
+}
+
+.work h3{
+
+   margin-top: 100px;
+   color: darkgreen;
+   
+}
+
+.connect{
+
+   margin-top: 500px;
+   display: inline;
+
+}
+
+.kohli{
+
+   width: 40px;
+   height: 40px;
+   margin-top: 80px;
+   margin-left: 15px;
+
+}
+
+.work h4{
+
+   margin-top: 30px;
+   color: darkgreen;
+   margin-left: 15px;
+   
+}
+
+.main{
+
+   float: left;
+   background-color: black;
+   width: 100%;
+   list-style: none;
+   font-family: "Georgia", serif;
+   font-size: 30px;
+   color: white; 
+   font-weight: bold;
+   text-decoration: none; 
+
+}
+
+.main:hover{
+
+   color: #34f315;
+}
