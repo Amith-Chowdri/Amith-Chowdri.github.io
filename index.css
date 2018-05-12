@@ -36,7 +36,7 @@
    float: left;
    margin-right: 10px;
    padding-left: 70px;
-   margin-top: 15px;
+   margin-top: 21px;
 
 }
 
@@ -49,6 +49,15 @@
    font-family: 'montserrat', sans-serif;
    background-color: black;
    letter-spacing: -1px;
+
+}
+
+.leftmenu h5{
+
+   margin-top: -60px;
+   font-size: 13.5px;
+   font-family: 'montserrat', sans-serif;
+   color: #f04;
 
 }
 
