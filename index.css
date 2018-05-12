@@ -44,7 +44,7 @@
 
    padding-left: 70px;
    font-weight: bold;
-   color: #f04;
+   color: cyan;
    font-size: 25px;
    font-family: 'montserrat', sans-serif;
    background-color: black;
@@ -57,7 +57,7 @@
    margin-top: -60px;
    font-size: 13.5px;
    font-family: 'montserrat', sans-serif;
-   color: #f04;
+   color: cyan;
 
 }
 
@@ -86,6 +86,7 @@
    line-height: 80px;
    margin-left: 80px;
    float: left;
+   padding: 5px;
 
 }
 
@@ -94,17 +95,20 @@
    text-decoration: none;
    color: white;
    display: block;
+
 }
 
 .rightmenu ul li a:hover{
 
-   color: #e6003d;
+   color: cyan;
+   border-bottom: 4px solid cyan;
 
 }
 
 #firstlist{
   
-   color: #e6003d;
+   color: cyan;
+   border-bottom: 4px solid cyan;
 
 }
 
@@ -113,22 +117,22 @@
    width: 100%;
    margin-top: 150px;
    text-align: center;
-   color: #e6003d;
+   color: cyan;
    font-family: "Playfair Display", serif;
 
 }
 
 .overlay{
   
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: transparent;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: transparent;
 }
 
 .overlay:hover{
@@ -161,8 +165,8 @@
    background-color: transparent;
    border: square;
    border-radius: 5px;
-   border-color: #f04;
-   color: #f04;
+   border-color: cyan;
+   color: cyan;
    font-family: "Istok Web", sans-serif;
    font-size: 16px;
    letter-spacing: 8px;
@@ -175,7 +179,7 @@
 
 #btnone:hover {
 
-   background-color: #f04;
+   background-color: cyan;
    transition: all 0.2s ease-in;
    color: black; 
    cursor: pointer;
@@ -206,7 +210,7 @@
 
 .text2{
 
-   color: #f04;
+   color: cyan;
    font-size: 35px;
    text-transform: uppercase;
    margin-left: 20px;
@@ -216,7 +220,7 @@
 
 .text3{
 
-   color: #34f315;
+   color: #f04;
    font-size: 23px;
    margin-left: 20px;
    letter-spacing: 1px;
@@ -246,7 +250,7 @@
 
 .title{
 
-   color: #f04;
+   color: #ff0047;
    font-size: 20px;
    font-family:"Georgia", serif; 
 
@@ -328,7 +332,7 @@
 .work h3{
 
    margin-top: 100px;
-   color: darkgreen;
+   color: cyan;
    
 }
 
@@ -351,26 +355,36 @@
 .work h4{
 
    margin-top: 30px;
-   color: darkgreen;
+   color: cyan;
    margin-left: 15px;
    
 }
 
 .main{
 
-   float: left;
    background-color: black;
    width: 100%;
-   list-style: none;
-   font-family: "Georgia", serif;
-   font-size: 30px;
-   color: white; 
-   font-weight: bold;
-   text-decoration: none; 
+   height: 40px; 
 
 }
 
-.main:hover{
+.submain{
 
-   color: #34f315;
+   margin-left: 30px;
+   float: left;
+   list-style: none;
+   font-family: "Georgia", serif;
+   font-size: 20px;
+   color: white; 
+   font-weight: bold;
+   text-decoration: none;
+   
+}
+
+.submain:hover{
+
+   color: cyan;
+   border: 2px solid cyan;
+   border-radius: 12px;
+
 }
