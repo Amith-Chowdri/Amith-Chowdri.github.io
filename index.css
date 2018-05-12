@@ -2,7 +2,6 @@
  
   margin: 0px;
   padding: 0px;
-  position: relative;
 
 }
 
@@ -31,7 +30,7 @@
 
 }
 
-#logo{
+.logo{
 
    display: inline-block;
    float: left;
@@ -46,7 +45,7 @@
    padding-left: 70px;
    font-weight: bold;
    color: #f04;
-   font-size: 22px;
+   font-size: 25px;
    font-family: 'montserrat', sans-serif;
    background-color: black;
    letter-spacing: -1px;
