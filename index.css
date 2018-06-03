@@ -379,13 +379,13 @@ header .leftmenu{
 @media screen and (max-width: 700px){
 
    .icon{
-   width: 100%;
+   width: 90%;
    float: none;
   } 
 
    .virat{
    height: 250px;
-   width: 85%;
+   width: 80%;
    padding: 20px;
   }
 
@@ -472,22 +472,32 @@ header .leftmenu{
 
   .bgimage h6{
    font-size: 8px;
+   animation: none;
   }
 
   #btnone{
    font-size: 9px;
-   letter-spacing: 5px; 
+   letter-spacing: 3px; 
   }
 
   .bgimage{
    height: 350px;
+  }
+
+  .work h4{
+    animation: none;
+    font-size: 11px;
+  }
+
+  .work h3{
+    font-size: 12px;
   }
 }
 
 @media screen and (min-width: 175px) and (max-width: 220px){
 
   .footer{
-   height: 215px;
+   height: 227px;
   }
 
   .text2{
@@ -496,6 +506,10 @@ header .leftmenu{
 
   .text3{
    font-size: 10px;
+  }
+
+  .technologies p{
+    font-size: 12px;
   }
   
 }
@@ -733,7 +747,7 @@ header .leftmenu{
   header .leftmenu{
    margin: 0px;
    text-align: left;
-   width: 27%;
+   width: 28%;
    height: 80px;
   }
 
@@ -764,7 +778,7 @@ header .leftmenu{
    line-height: 80px;
    padding: 0px;
    display: flex;
-   margin: 0px 50px;
+   margin: 0px 33px;
   }
 
   .rightmenu ul li{
@@ -836,10 +850,14 @@ header .leftmenu{
 
   .icon{
    float: left;
-   width: 27.5%;
+   width: 24.5%;
    margin-left: 10px;
    margin: 25px 7px;
    padding: 10px;
+  }
+
+  .technologies{
+    width: 90%;
   }
 
   .technologies p{
@@ -849,7 +867,7 @@ header .leftmenu{
   .virat{
    margin: 0px;
    height: 250px;
-   width: 220px;
+   width: 195px;
    padding: 5px;
   }
 
@@ -878,10 +896,25 @@ header .leftmenu{
 
 }
 
+@media screen and (min-width: 1058px) and (max-width: 1059px){
+
+  .icon{
+   width: 26.5%;
+  }
+}
+
+
 @media screen and (min-width: 1070px) and (max-width: 1109px){
 
   .icon{
    width: 28.5%;
+  }
+}
+
+@media screen and (min-width: 1110px) and (max-width: 1122px){
+
+  .icon{
+   width: 25.5%;
   }
 }
 
@@ -1052,7 +1085,7 @@ header .leftmenu{
   }
 
   .rightmenu ul li{
-   margin-left: 43px;
+   margin-left: 40px;
    font-size: 15px;
    margin-right: 20px;
    padding: 0px;
@@ -1137,7 +1170,7 @@ header .leftmenu{
   .virat{
    margin: 0px;
    height: 220px;
-   width: 203px;
+   width: 195px;
    padding: 5px;
   }
 
@@ -1157,7 +1190,7 @@ header .leftmenu{
   }
 
   .work{
-   margin-top: 1050px;
+   margin-top: 1000px;
   }
 
   .work h2{
@@ -1169,11 +1202,11 @@ header .leftmenu{
 @media screen and (min-width: 404px) and (max-width: 523px){
 
    #one{
-   font-size: 39px;
+   font-size: 37px;
   }
 
   #two{
-   font-size: 22.5px;
+   font-size: 21.5px;
   }
 
 }
@@ -1198,11 +1231,11 @@ header .leftmenu{
 @media screen and (min-width: 190px) and (max-width: 220px){
 
    #one{
-   font-size: 17px;
+   font-size: 15px;
   }
 
   #two{
-   font-size: 10.5px;
+   font-size: 9px;
   }
 
 }
@@ -1210,11 +1243,11 @@ header .leftmenu{
 @media screen and (min-width: 150px) and (max-width: 190px){
 
    #one{
-   font-size: 13px;
+   font-size: 11px;
   }
 
   #two{
-   font-size: 8px;
+   font-size: 7px;
   }
 
 }
@@ -1238,7 +1271,7 @@ header .leftmenu{
 @media screen and (min-width: 934px) and (max-width: 968px){
 
   .icon{
-   width: 27.5%;
+   width: 28.5%;
   }
 
 }
