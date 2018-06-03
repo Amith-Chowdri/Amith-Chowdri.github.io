@@ -1,99 +1,93 @@
 *{
- 
-  margin: 0px;
-  padding: 0px;
+
+   text-decoration: none;
+   margin: 0px;
+   padding: 0px;
 
 }
 
-.bgimage{
 
-   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(coorg2.jpg);
-   background-size: 100%;
-   height: 105vh;
-   background-repeat: no-repeat;
+body{
+
+   background-color: 
 
 }
 
-.menu{
+header{
 
-   width: 100%;
-   height: 80px;
-   background-color: rgba(0,0,0,0.6);
+   width: 100%; 
+   height: 100px;
 
 }
 
-.leftmenu{
+header .leftmenu{
 
-   width: 27%;
-   line-height: 80px;
-   float: left;
-
+   font-family: 'montserrat', sans-serif;
+   font-weight: bold;
+   color: cyan;
+   letter-spacing: -1px;
+   text-shadow: 3px 2px #f04;
+   background-color: black;
+   position: fixed;
+   
 }
 
 #logo{
 
    display: inline-block;
    float: left;
-   margin-right: 10px;
-   padding-left: 70px;
-   margin-top: 21px;
+   margin: 28px 10px;
 
 }
 
-.leftmenu h4{
 
-   padding-left: 70px;
-   font-weight: bold;
-   color: cyan;
-   font-size: 25px;
-   font-family: 'montserrat', sans-serif;
-   background-color: black;
-   letter-spacing: -1px;
+
+#one{
+
+   font-size: 26px;
+   display: inline-block;
+   margin-top: 15px;
 
 }
 
-.leftmenu h5{
+#two{
 
-   margin-top: -60px;
-   font-size: 13.5px;
-   font-family: 'montserrat', sans-serif;
-   color: cyan;
+   font-size: 15.5px;
+   display: inline-block;
 
 }
 
 .rightmenu{
-   
-   width: 73%;
+  
+   position: fixed;
+   background-color: #111;
+   width: 100%;
    height: 100px;
-   float: right;
 
 }
 
 .rightmenu ul{
 
-   list-style: none;
-   margin-left: 150px;
+   padding: 10px 0px;
+   text-align: center;
+
 }
 
 .rightmenu ul li{
 
    font-family: "Playfair Display", serif;
    display: inline-block;
+   font-size: 23px;
    list-style: none;
-   font-size: 15px;
-   color: white; 
+   color: cyan; 
    font-weight: bold;
-   line-height: 80px;
-   margin-left: 80px;
-   float: left;
-   padding: 5px;
+   padding: 5px 10px;
 
 }
 
 .rightmenu ul li a{
 
-   text-decoration: none;
-   color: white;
+   color: cyan;
    display: block;
 
 }
@@ -101,79 +95,85 @@
 .rightmenu ul li a:hover{
 
    color: cyan;
-   border-bottom: 4px solid cyan;
+   border-bottom: 4px solid #f04;
+   text-shadow: 3px 2px #f04;
 
 }
 
-#firstlist{
-  
-   color: cyan;
-   border-bottom: 4px solid cyan;
-
-}
-
-.text{
+.bgimage{
 
    width: 100%;
-   margin-top: 150px;
+   height: 450px;
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(coorg2.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin-top: 100px;
+   
+}
+
+.bgimage h4{
+
+   font-size: 16px;
    text-align: center;
    color: cyan;
    font-family: "Playfair Display", serif;
-
-}
-
-.overlay{
-  
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   height: 100%;
-   width: 100%;
-   opacity: 0;
-   transition: .5s ease;
-   background-color: transparent;
-}
-
-.overlay:hover{
-
-   opacity: 1;
-
-}
-
-.text h4{
-
-   font-size: 20px;
-
-}
-
-.text h1{
-
-   font-size: 50px;
-
-}
-
-.text h6{
+   text-shadow: 3px 2px #f04;
+   padding-top: 130px;
    
-   font-size: 20px;
-   text-transform: uppercase;
+}
 
+.bgimage h1{
+
+   font-size: 20px;
+   text-align: center;
+   color: cyan;
+   font-family: "Playfair Display", serif;
+   text-shadow: 3px 2px #f04;
+   
+}
+
+.bgimage h6{
+   
+   font-size: 14px;
+   text-align: center;
+   color: cyan;
+   font-family: "Playfair Display", serif;
+   text-shadow: 3px 2px #f04;
+   text-transform: uppercase;
+   animation: typing-text 2s infinite;
+   overflow: hidden;
+   white-space: nowrap;
+
+}
+
+@keyframes typing-text {
+
+   0%{
+      color: black;
+   }
+   30%{
+      letter-spacing: 6px;
+   }
+   85%{
+      letter-spacing: 3px;
+   }
 }
 
 #btnone{
 
    background-color: transparent;
-   border: square;
-   border-radius: 5px;
+   border-radius: 20px;
    border-color: cyan;
    color: cyan;
    font-family: "Istok Web", sans-serif;
-   font-size: 16px;
+   font-size: 12px;
    letter-spacing: 8px;
    margin-top: 20px;
-   padding: 10px;
+   padding: 9px;
    text-transform: uppercase;
    transition: box-shadow 0.3s linear 0.1s; 
+   text-shadow: 3px 2px #f04;
 
 }
 
@@ -184,6 +184,7 @@
    color: black; 
    cursor: pointer;
    box-shadow: 0 20px 20px 0 #000000; 
+   text-shadow: none;
 
 }
 
@@ -199,30 +200,31 @@
 .text1{
 
    color: #f04;
-   font-size: 40px;
+   font-size: 30px;
    text-transform: uppercase;
-   margin-left: 20px;
    font-family: "Georgia", Serif;
-   letter-spacing: 2px;
-   text-shadow: 0px 3px 3px #494949; 
+   letter-spacing: 1px;
+   text-shadow: 0px 3px 3px cyan;
+   text-align: center; 
+   text-decoration: underline;
 
 }
 
 .text2{
 
    color: cyan;
-   font-size: 35px;
+   font-size: 15px;
    text-transform: uppercase;
-   margin-left: 20px;
-   font-family:"Playfair Display", serif; 
+   margin: 0px 15px;
+   font-family:"Playfair Display", serif;
 
 }
 
 .text3{
 
    color: #f04;
-   font-size: 23px;
-   margin-left: 20px;
+   font-size: 12px;
+   margin: 15px;
    letter-spacing: 1px;
    font-family: "Georgia", serif; 
 
@@ -240,105 +242,84 @@
 #heading{
 
    color: #f04;
-   font-size: 40px;
+   font-size: 30px;
    font-family:Georgia, Serif;
    text-shadow: 0px 3px 3px #494949;
    margin-left: 20px;
    margin-top: 30px; 
+   letter-spacing: 1px;
+   text-align: center;
+   text-decoration: underline;
 
 }
 
 .title{
 
    color: #ff0047;
-   font-size: 20px;
+   font-size: 14px;
    font-family:"Georgia", serif; 
+   text-align: center;
 
 }
 
 .icon{
 
-   float: left;
-   width: 32%;
-   margin-left: 20px;
+   box-shadow: 5px 5px 10px grey;
+   margin: 30px 0px;
 
 }
 
 .virat{
 
-   margin-left: 60px;
-   margin-top: 20px;
    height: 250px;
    width: 250px;
+   padding: 20px;
 
 }
 
-.icon:first-of-type{
+.technologies p{
 
-   margin-left: 0px;
-
+   padding: 8px; 
+   text-align: justify;
 }
 
 .tech{
     
    text-align: center;
-   margin-top: 20px;
-   margin-bottom: 20px; 
+   margin: 5px 0px;
    color: darkgreen;
 
 }
 
-#newline{
-
-   margin-top: 440px;
-   margin-left: 5px;
-
-}
-
-.anotherline{
-
-   margin-top: 420px;
-   margin-left: 5px;
-   
-}
-
-@media screen and (max-width: 700px){
-
-   .icon{
-    width: 100%;
-    float: none;
-  } 
-}
-
 .work{
 
-   margin-top: 900px;
+   margin-top: 80px;
    background-color: black;
-   height: 500px;
+   height: 400px;
    text-align: center;
 
 }
 
 .work h2{
 
-   font-size: 35px;
+   font-size: 20px;
    color: #f04;
    font-family:Georgia, Serif;
-   text-shadow: 0px 3px 3px #494949;
-   margin-top: 100px;
+   text-shadow: 0px 3px 3px cyan;
+   margin-top: 50px;
    
 }
 
 .work h3{
 
-   margin-top: 100px;
+   margin-top: 50px;
    color: cyan;
+   letter-spacing: 2px;
    
 }
 
 .connect{
 
-   margin-top: 500px;
    display: inline;
 
 }
@@ -347,7 +328,7 @@
 
    width: 40px;
    height: 40px;
-   margin-top: 80px;
+   margin-top: 60px;
    margin-left: 15px;
 
 }
@@ -357,7 +338,11 @@
    margin-top: 30px;
    color: cyan;
    margin-left: 15px;
-   
+   text-shadow: 3px 2px #f04;
+   animation: typing-text 2s infinite;
+   overflow: hidden;
+   white-space: nowrap;
+
 }
 
 .main{
@@ -378,6 +363,8 @@
    color: white; 
    font-weight: bold;
    text-decoration: none;
+   padding: 5px;
+   display: inline-block;
    
 }
 
@@ -386,5 +373,880 @@
    color: cyan;
    border: 2px solid cyan;
    border-radius: 12px;
+
+}
+
+@media screen and (max-width: 700px){
+
+   .icon{
+   width: 100%;
+   float: none;
+  } 
+
+   .virat{
+   height: 250px;
+   width: 85%;
+   padding: 20px;
+  }
+
+}
+
+@media screen and (max-width: 385px){
+    
+   #one{
+   font-size: 30px;
+   margin-top: 15px;
+  }
+
+   #two{
+   font-size: 18px;
+  }   
+   
+}
+
+@media screen and (max-width: 248px){
+     
+   .work{
+   height: 500px;
+   }
+
+   #heading{
+   font-size: 18px;
+   }
+   
+}
+
+@media screen and (max-width: 342px){
+  
+   header{
+   height: 65px;
+  }
+
+   #one{
+   font-size: 18px;
+   margin-top: 15px;
+  }
+
+   #two{
+   font-size: 11px;
+  }
+  
+  #logo{
+   margin: 10px 5px;
+  }
+
+  .rightmenu{
+   height: 200px;
+  }
+
+   .bgimage{
+   margin-top: 200px; 
+  }
+
+   .text1{
+   font-size: 20px;
+   letter-spacing: 2px;
+  }
+
+   .text2{
+   font-size: 11px;
+  }
+
+   .text3{
+   font-size: 11px;
+   margin: 15px;
+  }
+
+  .footer{
+   height: 210px;
+  }
+
+  .bgimage h1{
+   font-size: 16px;
+  }
+
+  .bgimage h4{
+   font-size: 10px;
+   padding-top: 88px;
+  }
+
+  .bgimage h6{
+   font-size: 8px;
+  }
+
+  #btnone{
+   font-size: 9px;
+   letter-spacing: 5px; 
+  }
+
+  .bgimage{
+   height: 350px;
+  }
+}
+
+@media screen and (min-width: 175px) and (max-width: 220px){
+
+  .footer{
+   height: 215px;
+  }
+
+  .text2{
+   font-size: 11px;
+  }
+
+  .text3{
+   font-size: 10px;
+  }
+  
+}
+
+@media screen and (min-width: 547px){
+
+  .rightmenu{
+   line-height: 75px;
+  }
+}
+
+@media screen and (max-width: 174px){
+  
+  header .leftmenu{
+   height: 80px;
+  }
+
+  .text1{
+   font-size: 15px; 
+  }
+
+  .text2{
+   font-size: 9px; 
+  }
+
+  .text3{
+   font-size: 8px; 
+  }
+
+  #heading{
+   font-size: 14px;
+  }
+
+  .work h2{
+   font-size: 14px;
+  }
+
+  .work h3{
+   font-size: 12px;
+  }
+
+  .work h4{
+   font-size: 9px;
+   animation: none;
+  }
+
+  .bgimage h6{
+   animation: none;
+  }
+
+  .kohli{
+
+  }
+
+  #btnone{
+   padding: 5px;
+   font-size: 7px;
+   letter-spacing: 3px;
+  }
+
+  .virat{
+   height: 200px;
+   width: 75%;
+   padding: 10px;
+  }
+
+  #one{
+   font-size: 10px;
+   margin-top: 10px;
+  }
+
+   #two{
+   font-size: 7px;
+  }
+  
+  #logo{
+   margin: 5px 2px;
+  }
+
+  .technologies p{
+   font-size: 10px;
+  }
+
+  .rightmenu ul li{
+   font-size: 18px;
+  }
+
+  .title{
+   font-size: 10px;
+  }
+
+}
+
+@media screen and (min-width: 1340px){
+
+  header .leftmenu{
+   margin: 0px;
+   text-align: left;
+   width: 27%;
+   height: 80px;
+  }
+
+  #logo{
+   display: inline-block;
+   float: left;
+   margin: 20px 20px 10px 60px;
+  }
+
+  .rightmenu{
+   width: 73%;
+   height: 80px;
+   float: right;
+   margin-left: 363px;
+   background-color: rgba(0,0,0,0.6);
+   margin-top: -100px;
+  }
+
+  .rightmenu ul{
+   line-height: 80px;
+   padding: 0px;
+  }
+
+  .rightmenu ul li{
+   margin-left: 100px;
+   font-size: 15px;
+   margin-right: 20px;
+   padding: 0px;
+  }
+
+  .bgimage{
+   height: 750px;
+   margin-top: -100px;
+  }
+
+  .bgimage h4{
+   font-size: 20px;
+   padding-top: 250px;
+  }
+
+  .bgimage h1{
+   font-size: 50px;
+  }
+
+  .bgimage h6{
+   font-size: 20px;
+   margin-top: 5px;
+  }
+
+  @keyframes typing-text {
+
+   0%{
+      color: black;
+   }
+   30%{
+      letter-spacing: 13px;
+   }
+   85%{
+      letter-spacing: 8px;
+   }
+   }
+
+  #btnone{
+   font-size: 16px;
+  }
+
+  .text1{
+   font-size: 40px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .text2{
+   font-size: 35px;
+  }
+
+  .text3{
+   font-size: 23px;
+  }
+
+  #heading{
+   font-size: 40px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .title{
+   font-size: 20px;
+  }
+
+  .icon{
+   float: left;
+   width: 31%;
+   margin-left: 10px;
+   margin: 25px 0px;
+   padding: 10px;
+  }
+
+  .technologies p{
+   font-size: 15px;
+  }
+
+  .virat{
+   margin: 12px;
+   height: 250px;
+   width: 250px;
+  }
+
+  .tech{
+   margin-top: 10px;
+   margin-bottom: 20px; 
+  }
+
+  #newline{
+   margin-top: 510px;
+   margin-left: 5px;
+  }
+
+  .anotherline{
+   margin-top: 300px;
+   margin-left: 5px;
+  }
+
+  .work{
+   margin-top: 1100px;
+  }
+
+  .work h2{
+   font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1340px){
+
+  header .leftmenu{
+   margin: 0px;
+   text-align: left;
+   width: 27%;
+   height: 80px;
+  }
+
+  #one{
+   font-size: 24px;
+  }
+
+  #two{
+   font-size: 14.5px;
+  }
+
+  #logo{
+   display: inline-block;
+   float: left;
+   margin: 10px;
+  }
+
+  .rightmenu{
+   width: fit-screen;
+   height: 80px;
+   float: right;
+   margin-left: 270px;
+   background-color: rgba(0,0,0,0.6);
+   margin-top: -100px;
+  }
+
+  .rightmenu ul{
+   line-height: 80px;
+   padding: 0px;
+   display: flex;
+   margin: 0px 50px;
+  }
+
+  .rightmenu ul li{
+   margin-left: 83px;
+   font-size: 15px;
+   margin-right: 20px;
+   padding: 0px;
+  }
+
+  .bgimage{
+   height: 650px;
+   margin-top: -100px;
+  }
+
+  .bgimage h4{
+   font-size: 20px;
+   padding-top: 250px;
+  }
+
+  .bgimage h1{
+   font-size: 50px;
+  }
+
+  .bgimage h6{
+   font-size: 20px;
+   margin-top: 5px;
+  }
+
+  @keyframes typing-text {
+
+   0%{
+      color: black;
+   }
+   30%{
+      letter-spacing: 13px;
+   }
+   85%{
+      letter-spacing: 8px;
+   }
+   }
+
+  #btnone{
+   font-size: 16px;
+  }
+
+  .text1{
+   font-size: 30px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .text2{
+   font-size: 26px;
+  }
+
+  .text3{
+   font-size: 22px;
+  }
+
+  #heading{
+   font-size: 34px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .title{
+   font-size: 20px;
+  }
+
+  .icon{
+   float: left;
+   width: 27.5%;
+   margin-left: 10px;
+   margin: 25px 7px;
+   padding: 10px;
+  }
+
+  .technologies p{
+   font-size: 15px;
+  }
+
+  .virat{
+   margin: 0px;
+   height: 250px;
+   width: 220px;
+   padding: 5px;
+  }
+
+  .tech{
+   margin-top: 10px;
+   margin-bottom: 20px; 
+  }
+
+  #newline{
+   margin-top: 510px;
+   margin-left: 5px;
+  }
+
+  .anotherline{
+   margin-top: 300px;
+   margin-left: 5px;
+  }
+
+  .work{
+   margin-top: 1050px;
+  }
+
+  .work h2{
+   font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1109px){
+
+  .icon{
+   width: 28.5%;
+  }
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1070px){
+
+  .icon{
+   width: 26.5%;
+  }
+}
+
+@media screen and (min-width: 523px) and (max-width: 750px){
+  
+  header{
+   height: 117px;
+  }
+
+  header .leftmenu{
+   width: 100%;
+  }
+
+  #one{
+   font-size: 47px;
+  }
+
+  #two{
+   font-size: 27.5px;
+  }
+
+  #logo{
+   display: inline-block;
+   float: left;
+   padding: 8px;
+  }
+
+  .rightmenu{
+   width: 100%;
+   height: 100px;
+   background-color: rgba(0,0,0,0.6);
+  }
+
+  .rightmenu ul{
+   line-height: 90px;
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .rightmenu ul li{
+   margin-left: 15px;
+   font-size: 18px;
+   margin-right: 7px;
+   text-align: center;
+  }
+
+  .bgimage{
+   height: fit-screen;
+   margin-top: 0px;
+  }
+
+  .bgimage h4{
+   font-size: 15px;
+   padding-top: 150px;
+  }
+
+  .bgimage h1{
+   font-size: 30px;
+  }
+
+  .bgimage h6{
+   font-size: 15px;
+   margin-top: 5px;
+  }
+
+  @keyframes typing-text {
+
+   0%{
+      color: black;
+   }
+   30%{
+      letter-spacing: 9px;
+   }
+   85%{
+      letter-spacing: 5px;
+   }
+   }
+
+  #btnone{
+   font-size: 14px;
+  }
+
+  .text1{
+   font-size: 30px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .text2{
+   font-size: 19px;
+  }
+
+  .text3{
+   font-size: 15px;
+  }
+
+  #heading{
+   font-size: 34px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .title{
+   font-size: 20px;
+  }
+
+  .technologies{
+   width: 50%;
+  }
+
+  .work{
+   margin-top: 100px;
+  }
+
+  .work h2{
+   font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 999px){
+
+  header .leftmenu{
+   margin: 0px;
+   text-align: left;
+   width: 250px;
+   height: 80px;
+  }
+
+  #one{
+   font-size: 19px;
+  }
+
+  #two{
+   font-size: 11.5px;
+  }
+
+  #logo{
+   display: inline-block;
+   float: left;
+   margin: 10px;
+   padding-top: 7px;
+  }
+
+  .rightmenu{
+   width: fit-screen;
+   height: 80px;
+   float: right;
+   margin-left: 225px;
+   background-color: rgba(0,0,0,0.6);
+   margin-top: -100px;
+  }
+
+  .rightmenu ul{
+   line-height: 80px;
+   padding: 0px;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .rightmenu ul li{
+   margin-left: 43px;
+   font-size: 15px;
+   margin-right: 20px;
+   padding: 0px;
+  }
+
+  .bgimage{
+   height: 650px;
+   margin-top: -100px;
+  }
+
+  .bgimage h4{
+   font-size: 20px;
+   padding-top: 250px;
+  }
+
+  .bgimage h1{
+   font-size: 50px;
+  }
+
+  .bgimage h6{
+   font-size: 20px;
+   margin-top: 5px;
+  }
+
+  @keyframes typing-text {
+
+   0%{
+      color: black;
+   }
+   30%{
+      letter-spacing: 13px;
+   }
+   85%{
+      letter-spacing: 8px;
+   }
+   }
+
+  #btnone{
+   font-size: 16px;
+  }
+
+  .text1{
+   font-size: 30px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .text2{
+   font-size: 23px;
+  }
+
+  .text3{
+   font-size: 17px;
+  }
+
+  #heading{
+   font-size: 34px;
+   text-align: left;
+   margin-left: 20px;
+  }
+
+  .title{
+   font-size: 20px;
+  }
+
+  .icon{
+   float: left;
+   width: 27.5%;
+   margin-left: 10px;
+   margin: 25px 7px;
+   padding: 10px;
+  }
+
+  .technologies p{
+   font-size: 15px;
+  }
+
+  .technologies{
+   width: 95%;
+  }
+
+  .virat{
+   margin: 0px;
+   height: 220px;
+   width: 203px;
+   padding: 5px;
+  }
+
+  .tech{
+   margin-top: 10px;
+   margin-bottom: 20px; 
+  }
+
+  #newline{
+   margin-top: 510px;
+   margin-left: 5px;
+  }
+
+  .anotherline{
+   margin-top: 300px;
+   margin-left: 5px;
+  }
+
+  .work{
+   margin-top: 1050px;
+  }
+
+  .work h2{
+   font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width: 404px) and (max-width: 523px){
+
+   #one{
+   font-size: 39px;
+  }
+
+  #two{
+   font-size: 22.5px;
+  }
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 342px){
+
+  .rightmenu ul{
+   padding: 0px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .rightmenu ul li{
+   margin-left: 20px;
+   font-size: 27px;
+   margin-right: 20px;
+   text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 190px) and (max-width: 220px){
+
+   #one{
+   font-size: 17px;
+  }
+
+  #two{
+   font-size: 10.5px;
+  }
+
+}
+
+@media screen and (min-width: 150px) and (max-width: 190px){
+
+   #one{
+   font-size: 13px;
+  }
+
+  #two{
+   font-size: 8px;
+  }
+
+}
+
+@media screen and (min-width: 863px) and (max-width: 900px){
+
+  .icon{
+   width: 26.5%;
+  }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 927px){
+
+  .icon{
+   width: 26.5%;
+  }
+
+}
+
+@media screen and (min-width: 934px) and (max-width: 968px){
+
+  .icon{
+   width: 27.5%;
+  }
+
+}
+
+@media screen and (min-width: 928px) and (max-width: 933px){
+
+  .icon{
+   width: 28.5%;
+  }
 
 }

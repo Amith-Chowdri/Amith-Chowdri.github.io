@@ -15,53 +15,57 @@
     </head>
     
     <body>
-
-        <div class="bgimage" id="top">
-            <div class="menu" id="first">
-                <div class="leftmenu">
-                    <div id="logo">
-                        <img src="logo.png" alt="mylogo">
-                    </div>
-                    <h4> AMITH CHOWDRI </h4><h5> WEB DESIGNER & DEVELOPER </h5>
-                </div>
-
-                <div class="rightmenu">
-                    <ul>
-                        <li><a href="#first" id="firstlist"> HOME </a></li>
-                        <li><a href="#ironman"> ABOUT </a></li>
-                        <li><a href="#thor"> INTERESTS </a></li>
-                        <li><a href="#webwork"> PROJECTS </a></li>
-                        <li><a href="#last"> CONNECT </a></li>
-                    </ul>
-                </div>
-            </div>
+         
+      <header>
         
-
-
-            <div class="text">
-                <div class="overlay">
-                    <h4> Design <small>*</small> Develop <small>*</small> Explore </h4><br>
-                    <h1><i> Hi, I'm Amith.I Design & Build </i> <br>
-                    <i> Websites & Web Applications.</i> 
-                    </h1><br>
-                    <h6><i> YES I'M AVAILABLE FOR HIRE. </i>
-                    <br><br>
-                    <button id="btnone" type="submit"  onclick="window.open('my resume.pdf')"> Download My CV </button>
-                    </h6>
-                </div>
+          <div class="leftmenu">
+            <div id="logo">
+              <img src="logo.png" alt="mylogo">
             </div>
-        
-        </div>
+              <p id="one"> AMITH CHOWDRI </p><p id="two"> WEB DESIGNER & DEVELOPER </p>
+          </div>
 
-            <div class="footer" id="ironman">
-                <h1 class="text1"><ins> About me </ins></h1><br>
-                <h3 class="text2"> A fresher who is looking for a good, long & successful career <br> & is ready to sell his skills for the benefits of the needies.
+      </header>
+
+        <section>
+          
+          <nav class="rightmenu" id="first">
+            <ul>
+              <li><a href="#ironman"> ABOUT </a></li>
+              <li><a href="#thor"> INTERESTS </a></li>
+              <li><a href="#webwork"> PROJECTS </a></li>
+              <li><a href="#last"> CONNECT </a></li>
+            </ul>
+          </nav>
+
+        </section>
+
+            <div class="bgimage">
+              
+              <h4> Design <small>*</small> Develop <small>*</small> Explore </h4><br>
+              <h1><i> Hi, I'm Amith.I Design & Build </i> <br>
+              <i> Websites & Web Applications.</i> 
+              </h1><br>
+              <h6><i id="ironman"> YES I'M AVAILABLE FOR HIRE. </i>
+              <br><br>
+              <a href="my resume.pdf" download="resume">
+              <button id="btnone" type="button"> Download My CV </button>
+              </a>
+              </h6>
+            
+            </div>
+            
+<!-- about section -->
+
+            <div class="footer" id="thor">
+                <h1 class="text1"> About me </h1><br>
+                <h3 class="text2"> A fresher who is looking for a good, long & successful career & is ready to sell his skills for the benefits of the needies.
                 </h3>
                 <h5 class="text3">Everything started with the passion for web technologies.In 2017, I got my Degree(B.E in E&C stream).</h5>
             </div>
             
-
-            <h1 id="heading"><ins> INTERESTS </ins></h1><br>
+<!-- interests section -->
+            <h1 id="heading"> INTERESTS </h1><br>
 
         <section class="technologies" id="thor">
        
@@ -87,7 +91,6 @@
                 
         </section>
 
-
         <section class="technologies">
 
              <h3 class="title" id="newline"> TECHNOLOGIES I WILL BE WORKING ON IN FUTURE- </h3><br>
@@ -97,25 +100,21 @@
                 <h4 class="tech"> Mongo DB </h4>
                 <p>It is document based database popular for its database scaling capabilities and is extremely faster than traditional database.</p></div>
             
-            
                 <div class="icon">
                 <img class="virat" src="nodejs.png" alt="techicon">
                 <h4 class="tech"> NodeJS </h4>
                 <p>It is a JavaScript runtime, used for developing a wide array of software and systems. The runtime can be used on servers, desktops, IoT devices, etc.</p></div>
 
-
                 <div class="icon">
-                <img class="virat" src="jq.png" alt="techicon">
-                <h4 class="tech"> jQuery </h4>
-                <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.</p></div>
+                <img class="virat" src="exjs.png" alt="techicon">
+                <h4 class="tech"> ExpressJS </h4>
+                <p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.</p></div>
 
         </section>
 
-
         <section class="technologies">
 
-        
-            <div class="anotherline">
+              <div class="anotherline">
 
                 <div class="icon">
                 <img class="virat" src="angularjs.png" alt="techicon">
@@ -125,12 +124,12 @@
                 <div class="icon">
                 <img class="virat" src="bs.png" alt="techicon">
                 <h4 class="tech"> BOOTSTRAP </h4>
-                <p>Bootstrap contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.</p></div>
+                <p>Bootstrap contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.Bootstrap 4 is the newest version.</p></div>
 
                 <div class="icon">
-                <img class="virat" src="exjs.png" alt="techicon">
-                <h4 class="tech"> ExpressJS </h4>
-                <p>Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.</p></div>
+                <img class="virat" src="jq.png" alt="techicon">
+                <h4 class="tech"> jQuery </h4>
+                <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.</p></div>
 
 
             </div>
@@ -138,12 +137,15 @@
 
         </section>
 
+<!-- projects section -->
 
         <section class="work" id="webwork">
             
            
                 <br><h2> Projects I Have Worked On- </h2><br>
-                <h3> -Current Portfolio Website- </h3>
+                <h3> Amith-Chowdri.github.io </h3>
+
+<!-- connect section -->
                 <div class="connect" id="last">
                     <img class="kohli" src="insta.png" alt="instagram">
                     <img class="kohli" src="fb.png" alt="facebook">
